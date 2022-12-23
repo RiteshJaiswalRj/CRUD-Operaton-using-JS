@@ -1,0 +1,75 @@
+body > table{
+    width: 80%;
+}
+table{
+    /* border-collapse: collapse; */
+    border-collapse: separate;
+    background-color: cadetblue;
+}
+table.list{
+    width: 100%;
+}
+td{
+    /* border: 1px solid #dddddd; */
+    border: 1px solid #100f0f;
+    text-align: left;
+    padding: 8px;
+}
+th{
+    border: 1px solid #100f0f;
+    text-align:-webkit-center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr{
+    background-color: #dddddd;
+    
+}
+
+input[type=text], input[type=number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit],input[type=reset]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    margin: 8px 0;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    display: inline-block;
+}
+input[type=reset]:hover{
+   background-color: rgb(67, 201, 241);
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type=submit]:hover{
+   background-color: rgb(67, 201, 241);
+   font-size: 15px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+
+}
+.hide{
+    display: none;
+}
